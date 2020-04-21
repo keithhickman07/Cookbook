@@ -33,19 +33,19 @@ this document. I still need to sort them accordingly.
 
 ### SQL DBs
 
--   What are windowing functions?
+-   What are windowing functions? Allows user to look at the records before and after the selected record. Really useful for computing stats about a given record or records, or select the top X records per category, averages, etc.
 
--   What is a stored procedure?
+-   What is a stored procedure? A procedure that runs when triggers are met. Could be time, or they can be called with parameters to execute a common query or job. DROP TABLE, create table, select from, etc. 
 
--   Why would you use them?
+-   Why would you use them? To avoid having to rewrite queries all the time. 
 
--   What are atomic attributes?
+-   What are atomic attributes? Singular value. E.g. marital status. 
 
--   Explain ACID props of a database
+-   Explain ACID props of a database Atomicity, Consistency, Isolation, Durability
 
--   How to optimize queries?
+-   How to optimize queries? Use indexing, potentially caching, select from is structured correctly. 
 
--   What are the different types of JOIN (CROSS, INNER, OUTER)?
+-   What are the different types of JOIN (CROSS, INNER, OUTER)? Cross takes the entire cartesian product of both left and right tables, and for every record in the left tables, joins it to a record in the right. Inner can be used as a filter, but is typically used to only return records that appear in both tables. Outer returns all records from both tables, regardless of whether there is a key-value pair. 
 
 -   What is the difference between Clustered Index and Non-Clustered
     Index - with examples?
@@ -65,7 +65,7 @@ this document. I still need to sort them accordingly.
 
 ### Linux
 
--   What is crontab?
+-   What is crontab?  This is what we use to schedule things in Linux. 
 
 ### Big Data
 
@@ -89,13 +89,13 @@ this document. I still need to sort them accordingly.
 
 ### Coding
 
--   What is the difference between an object and a class?
+-   What is the difference between an object and a class?  The class is the blueprint, the object is the car.  The object is the thing that generates an object.  
 
--   Explain immutability
+-   Explain immutability.  
 
--   What are AWS Lambda functions and why would you use them?
+-   What are AWS Lambda functions and why would you use them? 
 
--   Difference between library, framework and package
+-   Difference between library, framework and package. 
 
 -   How to reverse a linked list
 
